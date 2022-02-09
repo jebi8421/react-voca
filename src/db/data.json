@@ -1,15 +1,60 @@
 {
   "days": [
-    { "id": 1, "day": 1 },
-    { "id": 2, "day": 2 },
-    { "id": 3, "day": 3 }
+    {
+      "id": 1,
+      "day": 1
+    },
+    {
+      "id": 2,
+      "day": 2
+    },
+    {
+      "id": 3,
+      "day": 3
+    }
   ],
   "words": [
-    { "id": 1, "day": 1, "eng": "book", "kor": "책", "isDone": false },
-    { "id": 2, "day": 1, "eng": "apple", "kor": "사과", "isDone": false },
-    { "id": 3, "day": 2, "eng": "car", "kor": "자동차", "isDone": false },
-    { "id": 4, "day": 2, "eng": "pencil", "kor": "연필", "isDone": false },
-    { "id": 5, "day": 3, "eng": "peach", "kor": "복숭아", "isDone": false },
-    { "id": 6, "day": 3, "eng": "knee", "kor": "무릎", "isDone": false }
+    {
+      "id": 1,
+      "day": 1,
+      "eng": "book",
+      "kor": "책",
+      "isDone": true
+    },
+    {
+      "id": 2,
+      "day": 1,
+      "eng": "apple",
+      "kor": "사과",
+      "isDone": false
+    },
+    {
+      "id": 3,
+      "day": 2,
+      "eng": "car",
+      "kor": "자동차",
+      "isDone": false
+    },
+    {
+      "id": 4,
+      "day": 2,
+      "eng": "pencil",
+      "kor": "연필",
+      "isDone": false
+    },
+    {
+      "id": 6,
+      "day": 3,
+      "eng": "knee",
+      "kor": "무릎",
+      "isDone": false
+    },
+    {
+      "eng": "Computer",
+      "kor": "컴퓨터",
+      "day": "2",
+      "isDone": false,
+      "id": 9
+    }
   ]
 }

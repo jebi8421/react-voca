@@ -55,19 +55,23 @@ a {
 }
 
 .list_day li {
-  flex: 20% 0 0;
+  flex: 16% 0 0;
   box-sizing: border-box;
   padding: 10px;
 }
 
 .list_day a {
   display: block;
-  padding: 20px 0;
+  padding: 8px 0;
   font-weight: bold;
   color: #fff;
   text-align: center;
   border-radius: 10px;
   background-color: dodgerblue;
+}
+
+.list_day a:hover {
+  background-color: rgb(169, 181, 192);
 }
 
 table {
@@ -111,11 +115,13 @@ button {
 
 .input_area {
   margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
 }
 
 .input_area label {
-  display: block;
-  margin-bottom: 10px;
+  display: inline;
+  margin: 10px 10px;
 }
 
 .input_area input {
@@ -144,4 +150,22 @@ button {
   background-color: rgb(81, 223, 223);
   padding: 15px;
   font-weight: bold;
+}
+
+.day_div {
+  display: flex;
+  justify-content: space-between;
+  margin: 6px 8px;
+}
+
+.day_div span {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.day_div a {
+  padding: 2px 10px;
+  border: 0 none;
+  border-radius: 10px;
+  background-color: rgb(194, 212, 245);
 }
